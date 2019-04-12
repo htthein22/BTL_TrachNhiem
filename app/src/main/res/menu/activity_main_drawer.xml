@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trangchu"
+            android:icon="@drawable/home"
+            android:title="Trang Chủ" />
+        <item
+            android:id="@+id/duongbo"
+            android:icon="@drawable/db"
+            android:title="Luật giao thông đường bộ" />
+        <item
+            android:id="@+id/duongthuy"
+            android:icon="@drawable/dt"
+            android:title="Luật giao thông đường thủy" />
+        <item
+            android:id="@+id/duongsat"
+            android:icon="@drawable/ds"
+            android:title="Luật giao thông đường sắt" />
+        <item
+            android:id="@+id/duonghangkhong"
+            android:icon="@drawable/hkk"
+            android:title="Luật giao thông đường hàng không" />
+        <item
+            android:id="@+id/thoat"
+            android:icon="@drawable/out"
+            android:title="Thoát" />
+    </group>
+</menu>
